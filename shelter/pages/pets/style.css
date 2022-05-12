@@ -1,0 +1,269 @@
+@font-face {
+	font-family: 'Arial';
+	src: url("../../assets/fonts/arial.ttf");
+}
+
+@font-face {
+	font-family: 'Georgia';
+	src: url("../../assets/fonts/georgia.ttf");
+}
+
+html {
+	scroll-behavior: smooth; 
+}
+
+body {
+	max-width: 1280px;
+	font-family: Arial;
+	font-size: 15px;
+	background-color: #211F20;
+	overflow-x: hidden;
+	margin: auto;
+}
+
+
+.logo {
+	padding: 10px 20px 20px 40px;
+}
+
+.logo-main {
+	font-family: Georgia;
+	font-size: 32px;
+	color:#545454;
+	letter-spacing: 0.06em;
+}
+
+.text-on-logo {
+	font-size: 13px;
+	color: #292929;
+	letter-spacing: 0.10em;
+	padding-left: 3px;
+	margin-top: -12px;
+}
+
+.nav {
+	padding: 35px 43px 20px 45px;
+}
+
+.my-slider {
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	gap: 40px;
+}
+
+.nav-menu {
+	display: flex;
+	gap: 35px;
+	list-style: none;
+}
+
+.navurl-pets {
+	color: #292929;
+	text-decoration: none;
+	border-bottom: 3px solid #F1CDB3;
+	padding-bottom: 5px;
+}
+
+.navurl {
+	text-decoration: none;
+	color: #545454;
+}
+
+.navurl:hover {
+	color: #292929;
+}
+
+#pets {
+	background: #F6F6F6;
+}
+
+.section-title {
+    display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.section-title {
+	font-family: Georgia;
+    font-size: 35px;
+	letter-spacing: 0.06em;
+	line-height: 45px;
+	color: #545454;
+}
+
+
+
+.pets-card {
+	width: 270px;
+	height: 445px;
+	background-color: #FAFAFA;
+	border-radius: 9px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pets-card:hover {
+	box-shadow: 0px 2px 35px 14px #0D0D0D0A;
+	color: #FFFFFF;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.pets-card:hover button {
+	background-color: #FDDCC4;
+}
+
+.first-pet {
+	padding-top: 20px;
+}
+
+.name {
+	font-family: Georgia;
+	font-size: 20px;
+	letter-spacing: 0.06em;
+    color: #545454;
+	padding: 10px 0 10px 5px;
+}
+
+
+
+.pages {
+	display: flex;
+	gap: 20px;
+	padding: 50px 0 105px 470px;
+}
+
+.inactive {
+	width: 52px;
+    height: 52px;
+	font-family: Georgia;
+	font-size: 20px;
+	border-radius: 100px;
+	border: 2px solid #CDCDCD;
+}
+
+.active {
+	width: 52px;
+    height: 52px;
+	font-family: Georgia;
+	font-size: 20px;
+	border-radius: 100px;
+	border: 2px solid #F1CDB3;
+	color: #292929;
+	background-color: #FAFAFA;
+	cursor: pointer;
+}
+
+.active:hover {
+	background-color:#F1CDB3;
+}
+
+.page {
+	width: 52px;
+    height: 52px;
+	font-family: Georgia;
+	font-size: 20px;
+	border-radius: 100px;
+	border: 2px solid #F1CDB3;
+	color: #292929;	
+	background: #F1CDB3;
+}
+
+.footer-main {
+	display: flex;
+	background: url("../../assets/png/footer-gradient-background.png");
+}
+
+.footer-title {
+	font-family: Georgia;
+    font-size: 35px;
+	letter-spacing: 0.06em;
+	line-height: 45px;
+	color: #FFFFFF;
+}
+
+.button {
+	width: 187px;
+	height: 52px;
+	font-family: Georgia;
+	font-size: 17px;
+	letter-spacing: 0.06em;
+	border-radius: 100px;
+	border: 2px solid #F1CDB3;
+	cursor: pointer;
+	background-color: #FAFAFA;
+}
+
+.contacts {
+	padding: 20px 0 0 40px;
+}
+
+.icons-contact {
+	font-family: Georgia;
+    font-size: 20px;
+	letter-spacing: 0.06em;
+	padding-top: 10px;	
+}
+
+.item {
+	text-decoration: none;
+	color:#F1CDB3;
+	padding-left: 60px;
+}
+
+.call-icon {
+	background: url("../../assets/svg/call-icon.svg");
+	background-repeat: no-repeat;
+	height: 32px;
+}
+
+.mail-icon {
+	background: url("../../assets/svg/mail-icon.svg");
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+}
+
+
+
+.addreses {
+	padding: 20px 0 0 160px;
+}
+
+.address-icon {
+	font-family: Georgia;
+    font-size: 20px;
+	letter-spacing: 0.06em;
+}
+
+.footer-pet {
+	padding: 40px 0 0 170px;
+}
+
+.location-item {
+	color:#F1CDB3;
+	text-decoration: none;
+}
+
+.bostonicon {
+	background: url("../../assets/svg/icon-marker.svg");
+	background-repeat: no-repeat;
+	padding: 0 0 35px 40px;
+}
+
+.londonicon {
+	background: url("../../assets/svg/icon-marker.svg");
+	height: 32px;
+	background-repeat: no-repeat;
+	padding-left: 45px;
+}
+
